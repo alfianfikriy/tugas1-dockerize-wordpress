@@ -30,4 +30,3 @@ Jawaban pertanyaan:
 2. depends_on digunakan untuk mengatur urutan startup container. WordPress membutuhkan MySQL, sehingga WordPress dijalankan setelah MySQL aktif
 3. Wordpress terhubung ke MySQL dengan nama service (mysql) sebagai hostname melalui Docker internal network, bukan menggunakan localhost
 4. Redis berfungsi sebagai object cache untuk menyimpan data dan query database di memory, sehingga meningkatkan performa WordPress dan mengurangi beban MySQL
-5. 
